@@ -1,3 +1,3 @@
 # kodeHode
 Fra kodehode
-(drumKit)[./drumKit]
+- [drumKit](./drumKit)
