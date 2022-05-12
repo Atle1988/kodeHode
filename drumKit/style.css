@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(238, 101, 101);
+    margin: 0;
+}
+
+.background-img{
+    background-image: url("img/drumkit.png");
+    margin: -30px auto;
+
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: top;
+    position: absolute; 
+
+    width: 1000px;
+    height: 960px; 
+
+    z-index: 0;
+}
+
+.rammen{
+    position:absolute;
+    
+    margin: 10px 220px;
+    position: absolute;
+    height: 800px;
+    width: 1000px;
+}
+
+p{
+    position: absolute; 
+    color: #283444;
+    text-shadow: 4px 4px #f1f1f1;
+    font-size: 50px;
+    font-family: 'Bungee', cursive;
+
+    filter: blur(1px);
+   
+    width: 200px;
+    height: 200px;
+    margin: -1% 83%;
+    z-index: 1;
+}
+
+.bilde{
+    
+    outline: 11px solid #192B40;
+    width: 190px;
+    height: 240px;
+    margin: 43.5% 53%;
+
+    background-image: url("img/drumkit.png");
+    
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-position: center;
+    
+
+    border-radius: 50% ;
+    background-color: rgba(97, 96, 96, 0.673);
+    position: absolute;
+
+    z-index: 1;
+    filter: blur(1px);
+}
+.knapper{
+    position: absolute; 
+    display: flex;
+    justify-content: space-between;
+    margin: 70% auto ;
+    
+    width: 1000px;
+}
+
+.btn-el{
+    width: 90px;
+    height: 90px;
+    border: 6px solid #6FF7D2;
+    outline: 5px solid #283444;
+    border-radius: 50%;
+    background-color: #283444;
+    font-family: 'Bungee', cursive;
+    color: #EE6565;
+    
+    text-shadow: -5px 5px 6px #f1f1f1;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 85px;
+    
+}
+
+
