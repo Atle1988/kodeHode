@@ -1,0 +1,95 @@
+  *{
+      margin: 0;
+      text-align: center;
+      font-size: 98px;
+  }
+  .brett{
+      position: absolute;
+      background-color: #F87429;
+      width: 814px;
+      height: 563px;
+     border-radius: 10%;
+      margin-left: 335px;
+      margin-top: 197px;
+      z-index: -3; /* -3 = brett */
+      
+  }
+  .box{
+    position: absolute;
+      background-color:blue;
+      width: 115px;
+      height: 113px;
+      margin-left: 684px;
+      margin-top: 265px;
+      z-index: -2; /* -2 = box */
+      border-radius: 50%;
+      
+  }
+  .box2{
+    position: absolute;
+    
+      width: 65px;
+      height: 152px;
+      margin-left: 695px;
+      margin-top: 405px;
+      
+      z-index: -2; /* -2 = box */
+      
+  }
+  .box3{
+    position: absolute;
+      background-color:blue;
+      width: 115px;
+      height: 113px;
+      margin-left: 684px;
+      margin-top: 584px;
+      z-index: -2; /* -2 = box */
+      border-radius: 50%;
+      
+  }
+  .front{
+    position: absolute;
+      background-color:orange;
+      width: 178px;
+      height: 152px;
+      margin-left: 287px;
+      margin-top: 143px;
+      border-radius: 50%;
+      z-index: -1; /* -1 = kulene i fronten */
+      
+  }
+  .front2{
+    position: absolute;
+      background-color:orange;
+      width: 178px;
+      height: 152px;
+      margin-left: 1042px;
+      margin-top: 668px;
+      border-radius: 50%;
+      z-index: -1; /* -1 = kulene i fronten */
+      
+  }
+  .back{
+    position: absolute;
+      background-color:green;
+      width: 178px;
+      height: 152px;
+      margin-left: 287px;
+      margin-top: 668px;
+      border-radius: 50%;
+      z-index: -4; /* -4 = kulende i bakgrunnen */
+      
+
+  }
+  .back2{
+    position: absolute;
+      background-color:green;
+      width: 178px;
+      height: 152px;
+      margin-left: 1042px;
+      margin-top: 142px;
+      border-radius: 50%;
+      z-index: -4; /* -4 = kulende i bakgrunnen */
+      
+
+  }
