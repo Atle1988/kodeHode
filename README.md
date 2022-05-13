@@ -1,4 +1,5 @@
-# kodeHode
-Fra kodehode
+# kodeHode Atle Sundvor Våland
+## Fra kodehode
+
 - [drumKit](./drumKit)
 - [randomColorCounter](./randomColorCounter)
