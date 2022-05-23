@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document.query</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <!-- .designBox = movebox for the toDoList -->
+    <div class="designBox">
+        <!-- .purpleBox = den lilla boksen med alt av textcontent oppi-->
+        <div class="purpleBox">
+
+            <!-- .moveLabel kan også ses på som en "header-section"-->
+            <div class="moveLabel">
+                <!-- Lager en input med id og en knapp med id-->
+                <input type="text" id="input-el" placeholder="#toDoList" maxlength="40">
+                <button id="btn-el"><b>Enter</b></button>
+            </div>
+            
+            <!-- Lager en div boks med id #list, så jeg kan appende li og delete knappen fra JS-fila -->
+            <ul id="list"></ul>
+        </div>
+        <!-- Lager en REMOVE ALL botton til fjerning av all li elementene -->
+        <button id="remove-btn"> <em> REMOVE <strong>ALL !</strong></em></button>
+    </div>
+  
+
+    <script src="script.js"></script>
+</body>
+</html>
