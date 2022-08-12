@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.2rem;
+    font-family: fantasy;
+}
+body{
+    background-color: #666;
+    color: whitesmoke;
+    text-align: center;
+}
+/* The information section */
+.information{
+    position: relative;
+    top: 40px;
+}
+
+.my_app{
+    border: 2px solid rgba(255, 166, 0, 0.703);
+    border-radius: 160% 20% 160% 90%;
+    box-shadow: 0 0 50px white;
+    width: 700px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    font-size: 60px;
+    -webkit-text-stroke: 1px #252525;
+    color: orange;
+    letter-spacing: 0.3rem;
+}
+h3{
+    color: #252525;
+}
+
+input{
+    border: 2px solid orange;
+    border-radius: 8px;
+    color: yellow;
+    background-color: #252525;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+button{
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 5px;
+  
+    color: yellow;
+    background-color: rgba(128, 0, 128, 0.33);
+}

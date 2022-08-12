@@ -1,0 +1,96 @@
+*{
+    border-radius: 20px;
+}
+
+body{
+    background-color: #252525; color: salmon;
+    margin: 0;
+    padding: 0;
+    
+}
+/* The style for the wrapper around the app */
+.my-app-wrapper{
+    background-color: #666;
+    text-align: center;
+    padding: 30px;
+    max-width: 735px;
+    min-width: 600px;
+
+    position: relative;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%, 0);
+}
+
+
+/* -------------   Header - Main - Footer ---------   */
+header{
+    -webkit-text-stroke: .06rem white;
+}
+main{
+    color: whitesmoke;
+    -webkit-text-stroke: .04rem salmon;
+}
+
+footer{
+    letter-spacing: 0.05rem; 
+}
+header, main {
+    letter-spacing: 0.3rem;
+}
+/* -------------  /Header /Main /Footer ---------  */
+
+
+ /* ----------------- section-top ----------------*/
+/* Ordered list text possision */
+ol{
+    text-align: start;
+}
+/* Style for the numbers in the ordered-list*/
+li::marker{
+    color:white;
+    font-size: x-large;
+}
+ /* ----------------- /section-top ----------------*/
+
+
+/* ----------------- section-task ----------------*/
+/* When hovering the <h1> down in section-task the cursor will be a pointer, to show it possible to click on it */
+/* The style for the section where inputs and textarea is */
+.section-task{
+    background-color: seagreen;
+    border: 2px solid salmon;
+}
+
+.theArray{
+    cursor: pointer;
+}
+
+/* the checkbox class is for some inputs are displayed and labels for thoes inputs. */
+.checkbox{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Background-color for checkbox's type radio */
+input[type="radio"]{
+    accent-color: salmon;
+}
+
+/* Styling for the textarea in section-task */
+textarea{
+    background-color: #252525;
+    color: whitesmoke;
+    margin: 10px 0 20px 0;
+    padding: 20px;
+    
+    width: 90%;
+    height: 290px;
+    
+    font-size: larger;
+    text-align: center;
+    line-height: 1.5rem;
+    
+    resize: none;
+}
+/* ----------------- /section-task ----------------*/
